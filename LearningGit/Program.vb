@@ -4,7 +4,7 @@
         Dim wort As String
         Dim richtigGerateneBuchstaben As String
 
-        wort = "Baum"
+        wort = "BAUM"
         richtigGerateneBuchstaben = "au"
 
         ZeichneHangmanWort(wort, richtigGerateneBuchstaben)
