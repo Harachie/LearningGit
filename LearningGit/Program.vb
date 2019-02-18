@@ -8,8 +8,13 @@
         richtigGerateneBuchstaben = "au"
 
         ZeichneHangmanWort(wort, richtigGerateneBuchstaben)
+
+
     End Sub
 
+    ''' <summary>
+    ''' Draws the correct characters and shows the underscore sign for unknown characters.
+    ''' </summary>
     Sub ZeichneHangmanWort(wort As String, richtigGerateneBuchstaben As String)
         Dim wortAlsKleinbuchstaben As String
         Dim gerateneBuchstabenAlsKleinbuchstaben As String
