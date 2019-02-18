@@ -17,9 +17,9 @@
 
         For i As Integer = 0 To wort.Length - 1
             If gerateneBuchstabenAlsKleinbuchstaben.Contains(wortAlsKleinbuchstaben(i)) Then
-                Console.Write(wort(i))
+                Console.Write(wort(i) & " ")
             Else
-                Console.Write("_")
+                Console.Write("_ ")
             End If
         Next
     End Sub
