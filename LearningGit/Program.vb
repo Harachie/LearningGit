@@ -6,6 +6,8 @@
 
         wort = "Baum"
         richtigGerateneBuchstaben = "au"
+
+        ZeichneHangmanWort(wort, richtigGerateneBuchstaben)
     End Sub
 
     Sub ZeichneHangmanWort(wort As String, richtigGerateneBuchstaben As String)
