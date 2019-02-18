@@ -9,8 +9,14 @@
     End Sub
 
     Sub ZeichneHangmanWort(wort As String, richtigGerateneBuchstaben As String)
+        Dim wortAlsKleinbuchstaben As String
+        Dim gerateneBuchstabenAlsKleinbuchstaben As String
+
+        wortAlsKleinbuchstaben = wort.ToLower
+        gerateneBuchstabenAlsKleinbuchstaben = richtigGerateneBuchstaben.ToLower
+
         For i As Integer = 0 To wort.Length - 1
-            If richtigGerateneBuchstaben.Contains(wort(i)) Then
+            If gerateneBuchstabenAlsKleinbuchstaben.Contains(wortAlsKleinbuchstaben(i)) Then
                 Console.Write(wort(i))
             Else
                 Console.Write("_")
